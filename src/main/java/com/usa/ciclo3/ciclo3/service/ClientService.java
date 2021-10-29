@@ -51,8 +51,8 @@ public class ClientService {
                 if(c.getPassword()!=null){
                     g.get().setPassword(c.getPassword());
                 }
-                if(c.getEmail()!=null){
-                    g.get().setEmail(c.getEmail());
+                if(c.getAge()!=null){
+                    g.get().setAge(c.getAge());
                 }
                 return clientRepository.saveClient(g.get());
             }
